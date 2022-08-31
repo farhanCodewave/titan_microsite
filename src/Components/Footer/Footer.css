@@ -1,0 +1,133 @@
+.footer1{
+   width: auto;
+    height: auto;
+    background-color:#ebebec;
+    padding: 40px;
+}
+
+.footer1 a{
+    text-decoration: none;
+    color:#135d72;
+    /* font-family : Gotham; */
+    font-family: Raleway,sans-seri;
+}
+
+.footer1 a:hover{
+    background: none;
+color: #00b2ad;
+}
+
+ul{
+    list-style-type: none;
+    font-family : Gotham;
+    color:#135d72;
+    font-size: 30px;
+    font-weight: bold;
+}
+.inp1::placeholder,.inp2::placeholder{
+    color:#135d72;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.inp2::placeholder{
+    /* text-align: top !important; */
+    position: absolute;
+  left: 18px;
+}
+.inp1{
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+   font-size: 15px;
+    padding-left: 20px;
+    font-family : Gotham;
+}
+.inp2{
+    height: 100px;
+    padding-left: 20px;
+    width:250px;
+    font-family : Gotham;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+   
+}
+.contact-us{
+    color:#135d72;
+    font-family : Gotham;
+   padding-left: 30px;
+   font-weight: bold;
+}
+
+.privaccy {
+cursor: pointer;
+}
+.privaccy:hover{
+    color:  #00b2ad;
+}
+
+.inp2.inp1 input::-webkit-input-placeholder {
+    color:#2b8396 !important;
+}
+.inp2 .inp1 input:focus::-webkit-input-placeholder {
+    color: #2b8396 !important;
+}
+.social{
+    padding-left: 20px;
+   display: flex;
+   gap: 20px;
+   
+}
+.btn6{
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    background-color:#2b8396 ;
+    font-size: 20px;
+    font-weight: bold;
+   
+   
+}
+.btn-7{
+    background-color:#2b8396 !important;
+    border: none !important;
+}
+.btn-7:hover{
+    background-color:  #00b2ad !important;
+}
+.btn6:hover{
+    background-color:  #00b2ad;
+}
+
+.footer-box1{
+    padding-left: 60px;
+}
+@media only screen and (max-width: 768px) {
+
+    .social{
+        
+    }
+    .footerBoxess{
+        
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #2b8396;
+    }
+    .btn6{
+        right: 150px;
+        margin-bottom: 20px;
+    }
+
+    .footerbox-4{
+        padding-top: 20px;
+    }
+    .footer-box1{
+        padding-left: 30px !important;
+    }
+}

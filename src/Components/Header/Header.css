@@ -1,0 +1,89 @@
+.head{
+    
+}
+.header-img{
+   width: 100vw;
+   height: 100%;
+   
+   float: left;
+    background-image: url('../../Images/HeaderImg.png');
+    background-repeat: no-repeat;
+    /* background-size: 100% 100% ; */
+    background-size: cover;
+    /* padding-top: 20px;
+    padding-bottom: 80px; */
+}
+.headbox{
+    text-align: center;
+padding-top: 5%;
+padding-bottom: 8%;
+    
+}
+.headbox hr{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: none;
+    width: 250px;
+    height: 2px;
+    background-color: #FFFF;
+    color: #FFFF;
+    opacity: 1;
+    /* border-style:solid;
+    border-color: #fff; */
+    
+    
+}
+.headbox h1 {
+    color: white;
+    font-weight: lighter;
+}
+.headbox p {
+    color: #fff;
+    font-weight: bold;
+    line-height: 20px;
+    
+}
+.header-img img{
+    width: 75px;
+    height: 75px;
+    
+}
+.log-box{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 280px;
+    top: 90px;
+    background-color: rgb(224, 220, 220);
+    /* opacity: 0.1; */
+}
+@media only screen and (max-width: 768px) {
+    .headbox{
+        /* width: 200px; */
+       width: 100%;
+        position: relative;
+    top: -13px;
+    right: -150px;
+    width: 291px;
+    padding: 0;
+    height: 100px;
+    }
+    .headbox-1{
+        width: 200px;
+        height: 50px !important;
+        font-size: 10px;
+    }
+    .headbox-1 h1{
+        font-size: 15px;
+    }
+    .headbox hr{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 480px) {
+    .headbox{
+        right: -90px;
+    }
+}

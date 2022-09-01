@@ -246,7 +246,7 @@ few rupees to plant a tree with us. We will do the rest!</p>
 <input placeholder='+91 | Phone Number'  value={values.number} onChange={handleChange1('number')} className='input-size'></input>
 <br/>
 {errors.number &&  <p style={{color:'#ecc422'}}>{errors.number}</p>}
-<input placeholder='Enter Pan No'  value={values.pan} onChange={handleChange1('pan')} className='input-size'></input>
+<input placeholder='Enter Pan Number'  value={values.pan} onChange={handleChange1('pan')} className='input-size'></input>
 <br/>
 {errors.pan &&  <p style={{color:'#ecc422'}}>{errors.pan}</p>}
 </div>

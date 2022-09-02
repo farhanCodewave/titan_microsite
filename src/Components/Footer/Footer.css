@@ -8,32 +8,37 @@
 .footer1 a{
     text-decoration: none;
     color:#135d72;
-    /* font-family : Gotham; */
-    font-family: Raleway,sans-seri;
+    font-family : 'Gotham';
+    
 }
 
 .footer1 a:hover{
     background: none;
 color: #00b2ad;
 }
-
+.footer-ul li a{
+    font-family : 'Gotham' ;
+    font-weight: 600;
+    font-size: 22px
+}
 ul{
     list-style-type: none;
-    font-family : Gotham;
+    font-family : 'Gotham';
     color:#135d72;
     font-size: 30px;
     font-weight: bold;
 }
 .inp1::placeholder,.inp2::placeholder{
     color:#135d72;
-    font-size: 20px;
-    padding-left: 20px;
+    font-size: 16px;
+    padding-left: 5px;
     font-weight: bold;
 }
 .inp2::placeholder{
     /* text-align: top !important; */
     position: absolute;
   left: 18px;
+  padding-top: 8px;
 }
 .inp1{
     height: 40px;
@@ -41,20 +46,23 @@ ul{
     border-radius: 20px;
     border: none;
     margin-bottom: 10px;
-   font-size: 15px;
+   font-size: 16px;
     padding-left: 20px;
-    font-family : Gotham;
+    font-family : 'Gotham';
 }
 .inp2{
     height: 100px;
     padding-left: 20px;
     width:250px;
-    font-family : Gotham;
+    font-family : 'Gotham';
     border-radius: 20px;
     border: none;
     margin-bottom: 10px;
     font-size: 20px;
    
+}
+.inp2{
+    
 }
 .contact-us{
     color:#135d72;
@@ -65,6 +73,11 @@ ul{
 
 .privaccy {
 cursor: pointer;
+font-family : 'Gotham' ;
+    font-weight: 600;
+    padding-top: 8px;
+    font-size: 22px
+
 }
 .privaccy:hover{
     color:  #00b2ad;
@@ -91,6 +104,8 @@ cursor: pointer;
     background-color:#2b8396 ;
     font-size: 20px;
     font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5px;
    
    
 }

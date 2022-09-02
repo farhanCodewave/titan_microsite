@@ -15,8 +15,8 @@ function Header() {
     <Navbar1/>
     <div className='row'>
     
-      <div className='col-md-7 col-sm-3 '></div>
-    <div className=' col-md-5 col-sm-9 headbox '>
+      <div className='col-md-7 '></div>
+    <div className=' col-md-5  headbox '>
       <div className='headbox-1'>
       <h1>One tree helps combat
 20kgs of carbon emission</h1>

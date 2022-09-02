@@ -1,12 +1,13 @@
 
 .mynav{
-    font-size: 14px;
+    font-size: 16px;
 	line-height: 1.5em;
-	font-family: Raleway,sans-serif;
+	padding: 10px !important;
+	font-family : 'Gotham';
 	color : #FFFFFF !important;
-    padding-top: 10px !important;
+    
 }
-.btn1{
+/* .btn1{
     background-color: #80a940;
     height: 30px;
     padding-left: 10px;
@@ -14,12 +15,12 @@
     border: none;
     color : #FFFFFF !important;
     border-radius: 20px;
-    
-    
-}
+    } */
+
  a:hover{
 	background-color: #80a940 ;
 	border-radius: 20px ;
+	
 	
     
 }
@@ -34,49 +35,3 @@ Nav.Link{
 	}
 }
 
-/* .NormalCharacterStyle4
-{
-	font-family : Myriad Pro;
-	font-size : 26px;
-	line-height : 55px;
-	color : #404041;
-	color : rgb(64, 64, 65);
-}
-.NormalCharacterStyle5
-{
-	font-family : Gotham;
-	font-size : 22px;
-	color : #FFFFFF;
-	color : rgb(255, 255, 255);
-}
-.NormalCharacterStyle1
-{
-	font-family : Gotham;
-	font-weight : bold;
-	font-size : 37px;
-	color : #6D6E70;
-	color : rgb(109, 110, 112);
-}
-.NormalCharacterStyle
-{
-	font-family : Gotham;
-	font-size : 66px;
-	line-height : 76px;
-	color : #80A940;
-	color : rgb(128, 169, 64);
-}
-.NormalCharacterStyle2
-{
-	font-family : Gotham;
-	font-weight : bold;
-	font-size : 29px;
-	color : #FFFFFF;
-	color : rgb(255, 255, 255);
-}
-.NormalCharacterStyle3
-{
-	font-family : Myriad Pro;
-	font-size : 26px;
-	color : #FFFFFF;
-	color : rgb(255, 255, 255);
-} */

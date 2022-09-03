@@ -451,7 +451,11 @@ input::-webkit-inner-spin-button {
 .india-cont a:hover{
   background-color: transparent;
 }
-
+.extra button{
+background-color: transparent;
+color: #00b2ad;
+border: none;
+}
 
 .btn8{
    

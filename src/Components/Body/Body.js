@@ -393,6 +393,7 @@ useEffect(()=>{
                     <button type="submit" className="btn5">
                       Contribute
                     </button>
+                   
                     <Modal
                     class=".modal-fullscreen-sm-down"
                       show={show}
@@ -424,6 +425,8 @@ useEffect(()=>{
         </Modal.Footer> */}
                     </Modal>
                   </form>
+                   {/* <p className="extra">For Contribution more than 250 Trees <button>Click here</button></p> */}
+                   {/* <p>For Contribution more than 250 Trees<a>Click here</a></p> */}
                 </div>
               </div>
             </Parallax>
@@ -503,7 +506,7 @@ useEffect(()=>{
                     borderRadius: "15px",
                   }}
                 ></img> */}
-                <button className="btn8"  ><a  target='_blank' href="https://hdor.com/app/#/titan-user-login">Join The Run</a></button>
+                <button className="btn8"  ><a  target='_blank' href="https://hdor.com/app/#/titan-user-login">Join The Run </a></button>
                
               </div>
             </div>

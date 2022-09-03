@@ -440,7 +440,38 @@ input::-webkit-inner-spin-button {
   background-color: transparent;
   color:#fff;
 }
-.app-store a{
+.btn8 a{
+  text-decoration: none;
+  color: #2b8396;
+}
+.btn8 a:hover{
+  background-color: transparent;
+  color:#fff;
+}
+.india-cont a:hover{
+  background-color: transparent;
+}
+
+
+.btn8{
+   
+    
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  color:red !important;
+}
+.btn8:hover{
+  background-color: #00b2ad;
+  color: #fff;
+}
+
+
+/* .app-store a{
   text-decoration: none;
   font-size: 20px;
   color:#fff;
@@ -448,7 +479,7 @@ input::-webkit-inner-spin-button {
 .app-store a:hover{
   background-color: transparent;
   text-decoration: none;
-}
+} */
 
 .video-container video {
   min-width: 100%;

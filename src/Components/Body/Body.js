@@ -439,7 +439,7 @@ useEffect(()=>{
           <div className="video-content">
             <div className="row">
               <div className="col-md-6 india-cont">
-                <img src={rhomb3} className="rhomb3"></img>
+              <a  target='_blank' href="https://hdor.com/app/#/titan-user-login"><img src={rhomb3} className="rhomb3"></img></a>
                 <p>
                   <strong>Sustainability is a marathon not a sprint!</strong>
                   You can be part of the Titan Go Green movement by supporting
@@ -494,8 +494,7 @@ useEffect(()=>{
                     borderRadius: "15px",
                   }}
                 ></img> */}
-                <a href='https://hdor.com/app/#/titan-user-login' target='_blank'>
-                <img
+                {/* <img
                   src={playstore}
                   style={{
                     width: "200px",
@@ -503,28 +502,29 @@ useEffect(()=>{
                     padding: "5px",
                     borderRadius: "15px",
                   }}
-                ></img>
-                </a>
+                ></img> */}
+                <button className="btn8"  ><a  target='_blank' href="https://hdor.com/app/#/titan-user-login">Join The Run</a></button>
+               
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="body4 container ">
-        <div
+      <div className="body4 container " >
+        {/* <div
           id="takeThePledge"
           className=" row d-flex justify-content-center youtube2"
         >
           <ReactPlayer
             controls
-            url="https://youtu.be/VBebiiFQmzg"
+            // url="https://youtu.be/VBebiiFQmzg"
             width="80%"
             height="500px"
           />
-        </div>
+        </div> */}
         <div>
-          <div className="row ">
+          <div className="row " id="takeThePledge">
             <div className="wrapper-body4">
               <div className="col-md-6 wrapper-body41 ">
                 <div className="wrapper-body41-1">
@@ -532,8 +532,9 @@ useEffect(()=>{
                 </div>
               </div>
               <div className="col-md-6 wrapper-body41">
-                <img src={rhomb4} className="rhomb-4"></img>
-                <p className="p12">
+              <img src={rhomb4} className="rhomb-4"></img>
+                
+                   <p className="p12">
                   You can also be part of this movement to impact change by
                   taking up smaller initiatives under the Titan Go Green
                   umbrella. Right from conserving water to reducing the use of
@@ -541,7 +542,7 @@ useEffect(()=>{
                   started we have compiled a list for you. Please read it and
                   take it upon yourself to do your part.
                 </p>
-                <button className="btn4"  ><a download='TitanPledge' target='_blank' href="https://res.cloudinary.com/dvli2yrzi/image/upload/v1662112662/Titan_Pledge__A4.pdf">Download</a></button>
+                <button className="btn4"  ><a  target='_blank' href="https://res.cloudinary.com/dvli2yrzi/image/upload/v1662112662/Titan_Pledge__A4.pdf">Download</a></button>
               </div>
             </div>
           </div>

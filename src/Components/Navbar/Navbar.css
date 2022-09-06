@@ -5,6 +5,7 @@
 	padding: 10px !important;
 	font-family : 'Gotham';
 	color : #FFFFFF !important;
+    text-decoration: none;
     
 }
 /* .btn1{
@@ -17,15 +18,29 @@
     border-radius: 20px;
     } */
 
- a:hover{
+ /* a:hover{
 	background-color: #80a940 ;
 	border-radius: 20px ;
 	
 	
     
-}
+} */
 Nav.Link{
 	
+}
+.navbg{
+    background-color: #135d72;
+    
+}
+.navbar11{
+    background-color: transparent;
+}
+  
+.navbar12{
+    background-color: #135d72;
+}
+.header{
+    background-color: #135d72;
 }
 
 @media only screen and (max-width: 768px) {

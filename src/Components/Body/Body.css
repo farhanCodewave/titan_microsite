@@ -1,6 +1,6 @@
 .body1{
    width: 100vw;
-   height: 100%;
+   /* height: 100%; */
    float: left;
    background-image: url('../../Images/body1cover.png');
     margin-top: 0;
@@ -292,7 +292,7 @@ color:  #6D6E70;;
 }
 .body1-text{
     text-align: center;
-    
+   
     font-family : 'Gotham';
     font-size: 16px;
 /* width: 800px; */
@@ -302,7 +302,9 @@ color:  #6D6E70;;
 }
 .body1-text p{
 font-weight: 400;
-padding: 10px 60px;
+
+   
+padding: 0px 120px;
 }
 
 
@@ -333,11 +335,14 @@ h3{
    height: 420px; */
     /* background-image: url('../../Images/formimg.png'); */
     border-radius: 30px !important;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     /* background-color: aqua; */
 /* top: 90px;
     position: relative; */
   
+}
+.roww1{
+  margin-right: 0px;
 }
 .wrapper-body2{
     text-align: center;
@@ -633,17 +638,18 @@ font-family : 'Gotham';
    
 }
 .mobile {
-    width: 400px;
+    /* width: 400px; */
     height: 500px;
    position: relative;
    top: -35%;
 }
 .mobile img{
-width: 400px;
+/* width: 400px; */
 height: 600px;
 /* height: 70%;
 width: 60%; */
 }
+
 
 .slider {
     width: 350px !important;
@@ -797,8 +803,8 @@ padding: 10px;  */
         left: -20px;
     } */
     .mobile img{
-        /* height: 70%; */
-width: 80%;
+        height: 70%; 
+ width: 80%;
 }
 .body1{
   padding-bottom: 40px;
@@ -825,8 +831,13 @@ position: relative;
         font-size: 12px;
         width: auto;
       }
+      .body1-text p{
+        padding: 0px 50px;
+        font-size: 14px;
+      }
       .para {
         font-size: 18px;
+        
       }
       .dash{
         width: auto;

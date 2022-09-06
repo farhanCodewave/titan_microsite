@@ -10,8 +10,8 @@
     background-repeat: no-repeat;
     /* background-size: 100% 100% ; */
     background-size: cover;
-    /* padding-top: 20px;
-    padding-bottom: 80px; */
+    
+    padding-bottom: 80px;
 }
 .headbox{
     text-align: center;
@@ -33,6 +33,10 @@ padding-bottom: 8%;
     border-color: #fff; */
     
     
+}
+.headbox-1{
+    position: relative;
+    top: 50px;
 }
 .headbox h1 {
     color: white;
@@ -80,7 +84,7 @@ padding-bottom: 8%;
     
         right: -175px; */
         position: absolute;
-        top: 160px;
+        top: 120px;
     }
     .headbox-1 p{
 font-size: 10px;

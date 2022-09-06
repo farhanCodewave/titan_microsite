@@ -1,22 +1,23 @@
-import React, { useState, useEffect,  } from "react";
+import React, { useState, useEffect } from "react";
 import Validation from "./Validation";
-import './Body.css'
+import "./Body.css";
 
 function Form2() {
-    const [show, setShow] = useState(false);
-    const [money, setMoney] = useState();
+  const [show, setShow] = useState(false);
+  const [money, setMoney] = useState();
   const [sliderValue, setSliderValue] = useState(9);
   const [views, setViews] = useState();
   const [values, setValues] = useState({
-    name: "",
+    name: " ",
     email: "",
     number: "",
     pan: "",
     views: "",
   });
   const [errors, setErrors] = useState({});
-const handleChange1 = (props) => (event) => {
-    setValues({ ...values, [props]: event.target.value });}
+  const handleChange1 = (props) => (event) => {
+    setValues({ ...values, [props]: event.target.value });
+  };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -33,62 +34,51 @@ const handleChange1 = (props) => (event) => {
     calculateMoney(value);
   };
 
-   
-    var start = 400;
-    var end = 100000;
-    var priceList = [];
+  var start = 400;
+  var end = 100000;
+  var priceList = [];
 
-    for (var i = 1; i <= end / start; i++) {
-      priceList.push(i * start);
+  for (var i = 1; i <= end / start; i++) {
+    priceList.push(i * start);
+  }
+  const calculateMoney = (value) => {
+    let ppm = priceList[value];
+    setMoney(ppm);
+  };
+
+  useEffect(() => {
+    calculateMoney(sliderValue);
+  });
+  useEffect(() => {
+    if (show === false) {
+      setSliderValue(9);
     }
-    const calculateMoney = (value) => {
-      let ppm = priceList[value];
-      setMoney(ppm);
-    };
+  }, [show]);
 
-    useEffect(() => {
-      calculateMoney(sliderValue);
-    });
- useEffect(() => {
-   if (show === false) {
-     setSliderValue(9);
-   }
- }, [show]);
+  useEffect(() => {
+    console.log("abcde");
+    console.log(Object.keys(errors));
+    if (
+      Object.keys(errors).length === 0 &&
+      values.name !== "" &&
+      values.email !== "" &&
+      values.number !== "" &&
+      values.pan !== ""
+    ) {
+      console.log("dfghjkl");
 
+      setShow(true);
+    }
+  }, [errors]);
 
+  useEffect(() => {
+    const viewsList = [];
+    for (var value = 1; value <= 250; value++) {
+      viewsList.push(value);
+    }
+    setViews(viewsList[sliderValue]);
+  }, [sliderValue]);
 
-useEffect(() => {
-  console.log("abcde");
-  console.log(Object.keys(errors));
-  if (
-    Object.keys(errors).length === 0 &&
-    values.name !== "" &&
-    values.email !== "" &&
-    values.number !== "" &&
-    values.pan !== ""
-  ) {
-    console.log("dfghjkl");
-
-    setShow(true);
-  }
-}, [errors]);
-
-useEffect(() => {
-  const viewsList = [];
-  for (var value = 1; value <= 250; value++) {
-    viewsList.push(value);
-  }
-  setViews(viewsList[sliderValue]);
-}, [sliderValue]);
-
-
-   
-  
-  
-
-
-
-  
   return (
     <div>
       <form class="form-group" onSubmit={handleFormSubmit}>
@@ -168,4 +158,4 @@ useEffect(() => {
   );
 }
 
-export default Form2
+export default Form2;
